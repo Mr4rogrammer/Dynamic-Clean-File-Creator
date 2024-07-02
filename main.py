@@ -6,7 +6,7 @@ from localDataSourceCreator import createLocalDataSoruceFile
 from repositoryImplCreator import repositoryImplCreator
 from uiStateCreator import uiStateCreator
 from viewmodelCreator import viewModelCreator
-
+from diModuleCreator import createDiModule
 
 #Folder creation
 
@@ -71,10 +71,10 @@ def create_files(base_path, packageName):
     uiStateCreator(base_path + "/presentation/states" , use_case_name, packageName)
 
 
+    #Di File Creation
+    createDiModule(base_path+"/di", package_name)
 
-
-
-
+    print("Template File Created Succfully...")
 
 base_path = input("Enter the path where you want to create folders (ex : /Users/krish-18770/Pictures/Mr.Shop) :-> ")
 package_name = input("Enter project package name (ex : com.gofrugal.sellquick.shopping) :-> ")
