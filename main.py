@@ -53,7 +53,7 @@ def create_all_directorys(base_path):
 
 def create_files(base_path, packageName):
     use_case_name = input("Enter the name of the case you want to create (ex: Login,Logout,Reset) :-> ")
-    use_case_name = "Checkout,AddItems,Print,SavePrint"
+  
 
     #domain File Creation
     createUseCaseFile(base_path+"/domain/use_cases", use_case_name, packageName)
