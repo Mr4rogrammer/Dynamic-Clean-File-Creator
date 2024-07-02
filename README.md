@@ -18,5 +18,11 @@
 2. **Package Name**: `com.mrprogrammer.mrshop.shopping`
 3. **Use Cases**: `CheckOut, ProductSearch, PrintBill, DownloadPdf`
 
+## To Run
+
+```sh
+python3 main.py
+
+
 ## Developed By
 Mr.Programmer
