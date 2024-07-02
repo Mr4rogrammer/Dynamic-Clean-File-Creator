@@ -22,7 +22,7 @@
 
 ```sh
 python3 main.py
-
+```
 
 ## Developed By
 Mr.Programmer
